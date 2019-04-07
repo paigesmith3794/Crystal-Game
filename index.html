@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Universe Crystal Collector Challenge</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container center">
+        <div class="col-sm-12">
+            <div id="logodiv"><img src="assets/images/StevenUniverse.png" class="logo"></div>
+            <h2>Crystal Collector Challenge</h2>
+        </div>
+    </div>
+    <div class="container center">
+        <div class="col-sm-12">
+            <div class="row" id="rulediv">
+                <h2 id="titleRules">Instructions</h2>
+                <p id="rules">
+                    The universe is in your hands! Can you match the power of the universe?
+                    <br>
+                    Each time you click on one of the crystal characters from Steven's Universe, a specific amount of
+                    points will be added to your total score.
+                    <br>
+                    You win by matching your total score to the number given to you from the universe.
+                    <br>
+                    You will lose the game if your total score goes above the number given from the universe.
+                    <br>
+                    The value of each crystal character is hidden from you until you click on one of
+                    them.
+                    <br>
+                    Each time this powerful game starts, the values of each crystal character will drastically change.
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div>
+        <div class="container-fluid">
+            <div class="row" id="images1">
+                <div class="col-sm-6">
+                    <img src="assets/images/crystal1.png" class="crystalimg" id="one">
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/images/crystal2.png" class="crystalimg" id="two">
+                </div>
+            </div>
+            <div class="row" id="images2">
+                <div class="col-sm-6">
+                    <img src="assets/images/crystal3.png" class="crystalimg" id="three">
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/images/crystal4.png" class="crystalimg" id="four">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="panelStyle">
+        <div class="row panel-body">
+            <div class="col-sm-6">
+                Number to match:
+                <span id="number"></span>
+            </div>
+            <div class="col-sm-6">
+                Your number:
+                <span id="combined"></span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="panelStyle">
+        <div class="row panel-body">
+            <div class="col-sm-6">
+                Wins:
+                <span id="numberWins"></span>
+            </div>
+            <div class="col-sm-6">
+                Losses:
+                <span id="numberLosses"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

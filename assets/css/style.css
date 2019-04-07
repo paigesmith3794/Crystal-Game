@@ -1,0 +1,36 @@
+h2 {
+    text-align: center;
+    background: lightblue;
+    padding: 5px;
+    width: inherit;
+}
+
+.logo {
+    align-content: center;
+}
+
+* {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+body {
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Nu2DDaj5gikp4kjij/fly-through-outer-space-nebula-and-stars-animated-background_rm0yuftfx_thumbnail-full11.png);
+}
+
+#rules {
+        background-color: lightblue;
+        border: darkblue;
+        padding: 15px;
+}
+
+.crystalimg{
+    padding: 10px;
+}
+
+#panelStyle {
+    background-color:lightblue;
+    width: 100%;
+}
