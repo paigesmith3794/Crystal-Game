@@ -1,4 +1,3 @@
-# unit-4-game
 Steven Universe Crystal Collector Challenge
 
 Instructions:
