@@ -15,3 +15,8 @@ The value of each crystal character is hidden from you until you click on one of
 them.
 
 Each time this powerful game starts, the values of each crystal character will drastically change.
+
+Technology Used:
+- JavaScript
+- HTML
+- CSS
