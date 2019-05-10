@@ -1,4 +1,4 @@
-Steven Universe Crystal Collector Challenge
+<h1>Steven Universe Crystal Collector Challenge</h1>
 
 Instructions:
 
